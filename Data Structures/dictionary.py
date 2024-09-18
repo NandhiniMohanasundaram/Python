@@ -1,9 +1,38 @@
 # #dict possible operation
+1.pop(key)
+2.del()
+3.clear()
+4.len(iterables)
 
 # my_dict1={1:'apple',2:"orange",3:"mango"}
 # my_dict2={'name1':"anu","name2":"priya","name3":"zara"}
 # print(my_dict2)
+'''
+# pop()
+my_dict2={'name1':"anu","name2":"priya","name3":"zara"}
+print(my_dict2.pop("name1"))  output:anu
 
+my_dict2={'name1':"anu","name2":"priya","name3":"zara"}
+del my_dict2["name1"]
+print(my_dict2)      //output:{'name2': 'priya', 'name3': 'zara'}
+
+
+# clear()
+my_dict2={'name1':"anu","name2":"priya","name3":"zara"}
+my_dict2.clear()
+print(my_dict2)
+
+# copy
+my_dict2={'name1':"anu","name2":"priya","name3":"zara"}
+r=my_dict2.copy()
+# print(my_dict2)         output: {'name1': 'anu', 'name2': 'priya', 'name3': 'zara'}
+
+
+# len()
+my_dict2={'name1':"anu","name2":"priya","name3":"zara"}
+s=len(my_dict2)
+print(s)
+'''
 
 # # index(value_to _find its index) -------dict is accessed by key ,thereby index is not available in dictionary
 # # print(my_dict2.index(2))
