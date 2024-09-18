@@ -1,4 +1,20 @@
 #tuple possible operation
+1.index(ele)
+2.pop()
+3.del()
+4.discard()  //'list' object has no attribute 'discard'
+5.remove(ele)
+6.clear()
+7.extend()
+8.append()
+9.insert()
+10.sort()
+11.sorted()
+12.copy()
+13.count()
+14.concat()
+15.len(iterables)
+16.slice(iterable[start:stop])
 
 my_tuple1=(1,2,4,9,1)
 my_tuple2=('r',4,'y')
