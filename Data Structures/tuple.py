@@ -1,28 +1,32 @@
 #tuple possible operation
 1.index(ele)
-2.pop()
-3.del()
-4.discard()  //'list' object has no attribute 'discard'
-5.remove(ele)
-6.clear()
-7.extend()
-8.append()
-9.insert()
-10.sort()
-11.sorted()
-12.copy()
-13.count()
-14.concat()
-15.len(iterables)
-16.slice(iterable[start:stop])
+2.count()
+3.concat()
+4.len(iterables)
+5.slice(iterable[start:stop])
+6.comparsion
+
 
 my_tuple1=(1,2,4,9,1)
 my_tuple2=('r',4,'y')
 print(my_tuple2)
 
-
+'''
 # index(value_to _find its index)
 print(my_tuple2.index(4))
+
+# count()
+my_tuple1=(1,2,4,9,1)
+
+print(my_tuple1.count(1))
+
+# concat()
+my_tuple1=(1,2,4,9,1)
+a=(2,3)
+print(my_tuple1+a)
+# len()
+print(len(a))
+
 
 # silicing
 print(my_tuple1[0:])
@@ -39,15 +43,10 @@ print(my_tuple1[::])
 
 print(my_tuple1[::-1])    #reversing a tuple
 
-# concat
-out_tuple=my_tuple1+my_tuple2
-print(out_tuple)
-
-#len()
-print("length:",len(my_tuple1))
-
-#count(value to be count)
-print(my_tuple1.count(1))
+my_tuple1=(1,2,4,9,1)
+a=(2,3)
+print(my_tuple1>a)       //output:False
+'''
 
 
 
