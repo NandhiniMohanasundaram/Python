@@ -11,6 +11,10 @@
 10.sort()
 11.sorted()
 12.copy()
+13.count()
+14.concat()
+15.len(iterables)
+16.slice(iterable[start:stop])
 
 
 my_list=[1,8,6,1,3,2,8,1,9]
@@ -105,3 +109,20 @@ lists=[1,2,3,'u']
 listcopy=lists.copy()
 print(lists)             //output:[1, 2, 3, 'u']
 print(listcopy)          //output:[1, 2, 3, 'u']
+
+
+
+# concat
+my_list1=[1,2,3,2]
+list2=[12,34,2]
+print(my_list1.count(2))
+out_tuple=my_list1+list2
+print(out_tuple)
+
+
+# silicing
+print(my_list1[0:])
+print(my_list1[1:])
+
+#len()
+print("length:",len(my_list1))
